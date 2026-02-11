@@ -1,0 +1,91 @@
+[
+  {
+    "author_name": [
+      "J. K. Rowling"
+    ],
+    "cover_id": 15155833,
+    "cover_url": "https://covers.openlibrary.org/b/id/15155833-M.jpg",
+    "first_publish_year": 1997,
+    "isbn": null,
+    "key": "OL82563W",
+    "language": "eng",
+    "pages": null,
+    "publisher": null,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "rating": 0,
+    "status": "completed",
+    "progress": 0,
+    "notes": "",
+    "categories": [],
+    "id": 1,
+    "saved_at": "2026-02-11T19:33:44.968908",
+    "updated_at": "2026-02-11T19:42:53.402188"
+  },
+  {
+    "author_name": [
+      "J. K. Rowling"
+    ],
+    "cover_id": 15158664,
+    "cover_url": "https://covers.openlibrary.org/b/id/15158664-M.jpg",
+    "first_publish_year": 1998,
+    "isbn": null,
+    "key": "OL82537W",
+    "language": "geo",
+    "pages": null,
+    "publisher": null,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "rating": 2,
+    "status": "want-to-read",
+    "progress": 0,
+    "notes": "",
+    "categories": [],
+    "id": 2,
+    "saved_at": "2026-02-11T19:33:46.669457",
+    "updated_at": "2026-02-11T19:42:48.688137"
+  },
+  {
+    "author_name": [
+      "Monica Hughes",
+      "Adrienne Salgado"
+    ],
+    "cover_id": 8271219,
+    "cover_url": "https://covers.openlibrary.org/b/id/8271219-M.jpg",
+    "first_publish_year": 2010,
+    "isbn": null,
+    "key": "OL17941294W",
+    "language": "eng",
+    "pages": null,
+    "publisher": null,
+    "title": "Rapunzel",
+    "rating": 1,
+    "status": "reading",
+    "progress": 0,
+    "notes": "",
+    "categories": [],
+    "id": 3,
+    "saved_at": "2026-02-11T19:34:09.503435",
+    "updated_at": "2026-02-11T19:42:45.823860"
+  },
+  {
+    "author_name": [
+      "Karsandas Manek"
+    ],
+    "cover_id": 14374832,
+    "cover_url": "https://covers.openlibrary.org/b/id/14374832-M.jpg",
+    "first_publish_year": 1991,
+    "isbn": null,
+    "key": "OL10617761W",
+    "language": "eng",
+    "pages": null,
+    "publisher": null,
+    "title": "Shrimad Bhagvat",
+    "rating": 0,
+    "status": "want-to-read",
+    "progress": 0,
+    "notes": "",
+    "categories": [],
+    "id": 4,
+    "saved_at": "2026-02-11T19:34:28.523570",
+    "updated_at": "2026-02-11T19:34:28.523606"
+  }
+]
