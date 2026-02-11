@@ -7,9 +7,9 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-  background: #0A0C0F;  /* Dark background */
+  background: #0A0C0F; 
   min-height: 100vh;
-  color: #E8E9EA;  /* Light text */
+  color: #E8E9EA;  
   line-height: 1.6;
 }
 
@@ -28,7 +28,7 @@ body {
   top: 20px;
   right: 20px;
   padding: 16px 28px;
-  background: #1E1F25;  /* Dark card */
+  background: #1E1F25;  
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   z-index: 1000;
@@ -45,17 +45,17 @@ body {
 }
 
 .toast.success {
-  border-left-color: #96BE37;  /* Keep primary color */
+  border-left-color: #96BE37;  
   background: #1E1F25;
 }
 
 .toast.error {
-  border-left-color: #FF6B6B;  /* Softer red for dark theme */
+  border-left-color: #FF6B6B;  
   background: #1E1F25;
 }
 
 .toast.info {
-  border-left-color: #64B5F6;  /* Softer blue */
+  border-left-color: #64B5F6; 
   background: #1E1F25;
 }
 
@@ -75,7 +75,7 @@ header {
   text-align: center;
   color: #E8E9EA;
   padding: 40px 32px;
-  background: #13151A;  /* Darker header */
+  background: #13151A;
   border-radius: 24px;
   margin-bottom: 24px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -87,13 +87,13 @@ header h1 {
   margin-bottom: 12px;
   font-weight: 700;
   letter-spacing: -0.02em;
-  color: #96BE37;  /* Keep primary color */
+  color: #96BE37;  
 }
 
 .tagline {
   font-size: clamp(1rem, 3vw, 1.2rem);
   margin-bottom: 32px;
-  color: #9A9CA5;  /* Softer gray */
+  color: #9A9CA5;  
   font-weight: 400;
 }
 
@@ -106,7 +106,7 @@ header h1 {
 }
 
 .stat-card {
-  background: #1E1F25;  /* Dark card */
+  background: #1E1F25; 
   border: 1px solid #2F3138;
   padding: 20px 16px;
   border-radius: 20px;
@@ -119,14 +119,14 @@ header h1 {
 .stat-card:hover {
   transform: translateY(-4px);
   background: #23252B;
-  border-color: #96BE37;  /* Keep primary color */
+  border-color: #96BE37;  
   box-shadow: 0 8px 24px rgba(150, 190, 55, 0.15);
 }
 
 .stat-value {
   font-size: clamp(1.8rem, 4vw, 2.4rem);
   font-weight: 700;
-  color: #96BE37;  /* Keep primary color */
+  color: #96BE37;  
   line-height: 1.2;
 }
 
@@ -163,14 +163,13 @@ header h1 {
 
 .tabs button:hover {
   background: #23252B;
-  border-color: #96BE37;  /* Keep primary color */
+  border-color: #96BE37;  
   transform: translateY(-2px);
   color: #E8E9EA;
 }
 
 .tabs button.active {
-  background: #96BE37;  /* Keep primary color */
-  color: white;
+  background: #96BE37;  
   border-color: transparent;
   font-weight: 700;
   box-shadow: 0 6px 16px rgba(150, 190, 55, 0.25);
@@ -178,7 +177,7 @@ header h1 {
 
 /* ============ MAIN CONTENT ============ */
 main {
-  background: #13151A;  /* Dark main content */
+  background: #13151A;  
   border-radius: 24px;
   padding: clamp(20px, 4vw, 40px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -229,7 +228,7 @@ main {
 }
 
 .search-input:focus {
-  border-color: #96BE37;  /* Keep primary color */
+  border-color: #96BE37;  
   outline: none;
   background: #23252B;
   box-shadow: 0 0 0 3px rgba(150, 190, 55, 0.1);
@@ -264,7 +263,7 @@ main {
 
 .search-btn {
   padding: 14px 24px;
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37;  
   color: white;
   border: none;
   border-radius: 16px;
@@ -277,7 +276,7 @@ main {
 }
 
 .search-btn:hover:not(:disabled) {
-  background: #A8D145;  /* Lighter primary */
+  background: #A8D145;  
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(150, 190, 55, 0.3);
 }
@@ -292,8 +291,7 @@ main {
 
 .add-custom-btn {
   padding: 14px 24px;
-  background: #96BE37;  /* Keep primary color */
-  color: white;
+  background: #96BE37;  
   border: none;
   border-radius: 16px;
   font-size: 1rem;
@@ -305,7 +303,7 @@ main {
 }
 
 .add-custom-btn:hover {
-  background: #A8D145;  /* Lighter primary */
+  background: #A8D145; 
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(150, 190, 55, 0.3);
 }
@@ -327,7 +325,7 @@ main {
 }
 
 .custom-book-form h3 {
-  color: #96BE37;  /* Keep primary color */
+  color: #96BE37;  
   margin-bottom: 8px;
   font-size: clamp(1.3rem, 4vw, 1.6rem);
   font-weight: 700;
@@ -365,7 +363,7 @@ main {
 }
 
 .form-group input:focus {
-  border-color: #96BE37;  /* Keep primary color */
+  border-color: #96BE37;  
   outline: none;
   background: #1A1C22;
   box-shadow: 0 0 0 3px rgba(150, 190, 55, 0.1);
@@ -390,7 +388,7 @@ main {
 
 .save-btn {
   padding: 14px 28px;
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37;  
   color: white;
   border: none;
   border-radius: 14px;
@@ -478,7 +476,7 @@ main {
   position: absolute;
   top: 12px;
   right: 12px;
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37;  
   color: white;
   padding: 6px 12px;
   border-radius: 30px;
@@ -547,7 +545,7 @@ main {
 }
 
 .status-dropdown:focus {
-  border-color: #96BE37;  /* Keep primary color */
+  border-color: #96BE37;  
   box-shadow: 0 0 0 3px rgba(150, 190, 55, 0.1);
 }
 
@@ -582,11 +580,11 @@ main {
 
 .star:hover {
   transform: scale(1.2);
-  color: #96BE37;  /* Keep primary color */
+  color: #96BE37;  
 }
 
 .star.filled {
-  color: #96BE37;  /* Keep primary color */
+  color: #96BE37;  
 }
 
 .rating-value {
@@ -624,7 +622,7 @@ main {
 
 .progress-fill {
   height: 100%;
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37;  
   transition: width 0.3s ease;
   border-radius: 20px;
 }
@@ -650,7 +648,7 @@ main {
   -webkit-appearance: none;
   width: 20px;
   height: 20px;
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37;  
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.2s;
@@ -665,7 +663,7 @@ main {
 
 .progress-text {
   font-weight: 600;
-  color: #96BE37;  /* Keep primary color */
+  color: #96BE37;  
   min-width: 50px;
   font-size: 0.95rem;
 }
@@ -698,7 +696,7 @@ main {
 }
 
 .save-btn {
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37;  
   color: white;
   box-shadow: 0 4px 12px rgba(150, 190, 55, 0.2);
   font-weight: 700;
@@ -800,7 +798,7 @@ main {
 }
 
 .library-search-input:focus {
-  border-color: #96BE37;  /* Keep primary color */
+  border-color: #96BE37;  
   background: #1A1C22;
   box-shadow: 0 0 0 3px rgba(150, 190, 55, 0.1);
 }
@@ -857,7 +855,7 @@ main {
   margin-bottom: 16px;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #96BE37;  /* Keep primary color */
+  color: #96BE37;
 }
 
 .suggestion-chips {
@@ -880,7 +878,7 @@ main {
 }
 
 .suggestion-chips button:hover {
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37;  
   color: white;
   transform: translateY(-2px);
   border-color: #96BE37;
@@ -906,7 +904,7 @@ main {
 }
 
 .primary-btn {
-  background: #96BE37;  /* Keep primary color */
+  background: #96BE37; 
   color: white;
   box-shadow: 0 4px 12px rgba(150, 190, 55, 0.2);
   font-weight: 700;
